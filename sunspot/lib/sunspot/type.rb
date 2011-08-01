@@ -356,7 +356,7 @@ module Sunspot
 
     class LatlonType < AbstractType
       def indexed_name(name)
-        "#{name}_ll"
+        name
       end
 
       def to_indexed(value)
